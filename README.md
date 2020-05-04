@@ -17,7 +17,7 @@ Database Setup:
 2. Run the following:
 
 ```bash
-from flask import db
+from app import db
 db.create_all()
 ```
 
