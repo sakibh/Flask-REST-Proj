@@ -19,11 +19,6 @@ ma = Marshmallow(app)
 
 ##### Models #####
 
-# Instructions for creating DB
-# 1. Open Python Shell
-# 2. Run: from flask import db
-# 3. Run: db.create_all()
-
 # Example Products Model
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
